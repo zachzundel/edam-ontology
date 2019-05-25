@@ -1,6 +1,6 @@
 {
   "name": "edam-ontology",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library for working with data and files classified according to the EDAM ontology.",
   "main": "index.js",
   "repository": "https://github.com/zachzundel/edam-ontology",
@@ -11,6 +11,6 @@
     "csv-parser": "^2.3.0"
   },
   "scripts": {
-    "build": "node build.js"
+    "install": "node build.js"
   }
 }
