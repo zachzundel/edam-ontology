@@ -1,6 +1,5 @@
 const fs = require('fs')
+const edam = require('./edam.json')
 
-let json = fs.readFileSync('edam.json')
-let edam = JSON.parse(json)
 
 module.exports = edam
